@@ -1,0 +1,1 @@
+//alert('Hello there, Wellcome to our website, use the search bar to look for what you need!');
