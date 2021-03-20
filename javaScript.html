@@ -20,6 +20,8 @@
 <body>
     <!-- jumbotron -->
 
+
+
     <div class="jumbotron">
         <div class="jumbotron" style="background-image: url(img/capa.jpeg); background-size: 100%;">
             <div class="container for-about">
@@ -28,6 +30,7 @@
             </div>
         </div>
     </div>
+    <!--navbar-->
     <div class="topnav">
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
@@ -35,10 +38,22 @@
     </div>
     <header class="Home-Page">
         <div class="header1"> <br>
+            <!--bottoms to the top page-->
             <a href="home.html" class="btn btn-info" role="button">Home Page</a>
             <a href="html.html" class="btn btn-info" role="button">Html</a>
             <a href="css.html" class="btn btn-info" role="button">Css</a>
             <a href="javaScript.html" class="btn btn-info" role="button">Java Script</a>
+
+            <!--onClick Button to display information-->
+            <button onclick="myFunction()">Click here to display</button>
+
+            <p id="demo"></p>
+
+            <script>
+                function myFunction() {
+                    document.getElementById("demo").innerHTML = "Hi there, thanks to access the page now you can go to the next page";
+                }
+            </script>
 
 
             <img class="social-media" src="img/social.png" alt="icon-social-media">
@@ -48,7 +63,7 @@
     </header>
     <section>
         <div class=>
-
+            <!--text and informations about the java Script-->
             <br>
             <h1>What is JavaScript?</h1>
 
@@ -72,13 +87,12 @@
                     example above to detect when the button is clicked and then run the code that updates the text
                     label.</li>
             </ul>
+            <!--images-->
+            <img src="img/script.jpeg" alt="Java-Icon"><br>
 
-            <img src="img/script.jpeg" alt="Java-Icon">
 
-
-            
     </section>
-
+    <!--footer page to the bottom of the page -->
     <footer class="footer">
         <div class="footer-bottom">
 
